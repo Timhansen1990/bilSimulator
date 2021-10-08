@@ -2,7 +2,7 @@ package com.company;
 
 public class Bremse {
 
-    boolean bremser = false;
+    boolean bremser = true;
 
     public void trækkerHåndbremsen(){
         if (bremser == true){

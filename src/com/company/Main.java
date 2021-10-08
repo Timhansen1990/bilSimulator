@@ -13,7 +13,6 @@ public class Main {
         car.motor.kører();
         car.motor.startMotor();
         car.motor.StopMotor();
-        car.bremser.trækkerHåndbremsen();
 
     }
 }

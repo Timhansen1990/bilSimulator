@@ -2,6 +2,7 @@ package com.company;
 
 public class Motor {
     boolean running;
+    Bremse trækHåndbremse = new Bremse();
 
     public void startMotor(){
         running = true;
@@ -10,6 +11,8 @@ public class Motor {
     public void StopMotor(){
         running = false;
         System.out.println("Bilen Slukkes");
+        trækHåndbremse.trækkerHåndbremsen();
+
     }
 
         public void kører(){
